@@ -4,7 +4,7 @@ from mysql.connector import Error
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "Aerox155@4630J",
+    "password": " ",
     "database": "student_result_db",
 }
 
@@ -108,3 +108,4 @@ def init_db():
 
     except Error as e:
         print("Error during DB initialization:", e)
+
